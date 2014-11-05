@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C280C3471A0A265900A0625A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C3461A0A265900A0625A /* AppDelegate.swift */; };
+		C280C3491A0A265900A0625A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C3481A0A265900A0625A /* ViewController.swift */; };
+		C280C34C1A0A265900A0625A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C280C34A1A0A265900A0625A /* Main.storyboard */; };
+		C280C34E1A0A265900A0625A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C280C34D1A0A265900A0625A /* Images.xcassets */; };
+		C280C3511A0A265900A0625A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C280C34F1A0A265900A0625A /* LaunchScreen.xib */; };
+		C280C35D1A0A265900A0625A /* BeaperSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C35C1A0A265900A0625A /* BeaperSampleTests.swift */; };
+		C280C3671A0A278600A0625A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C280C3661A0A278600A0625A /* CoreLocation.framework */; };
+		C280C3691A0A280A00A0625A /* Beaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C280C3681A0A280A00A0625A /* Beaper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C280C3571A0A265900A0625A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C280C3391A0A265900A0625A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C280C3401A0A265900A0625A;
+			remoteInfo = BeaperSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C280C3411A0A265900A0625A /* BeaperSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaperSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C280C3451A0A265900A0625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C280C3461A0A265900A0625A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C280C3481A0A265900A0625A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C280C34B1A0A265900A0625A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C280C34D1A0A265900A0625A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C280C3501A0A265900A0625A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C280C3561A0A265900A0625A /* BeaperSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaperSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C280C35B1A0A265900A0625A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C280C35C1A0A265900A0625A /* BeaperSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaperSampleTests.swift; sourceTree = "<group>"; };
+		C280C3661A0A278600A0625A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C280C3681A0A280A00A0625A /* Beaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Beaper.swift; path = ../../Beaper/Beaper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C280C33E1A0A265900A0625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C280C3671A0A278600A0625A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C280C3531A0A265900A0625A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C280C3381A0A265900A0625A = {
+			isa = PBXGroup;
+			children = (
+				C280C3661A0A278600A0625A /* CoreLocation.framework */,
+				C280C3431A0A265900A0625A /* BeaperSample */,
+				C280C3591A0A265900A0625A /* BeaperSampleTests */,
+				C280C3421A0A265900A0625A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C280C3421A0A265900A0625A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C280C3411A0A265900A0625A /* BeaperSample.app */,
+				C280C3561A0A265900A0625A /* BeaperSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C280C3431A0A265900A0625A /* BeaperSample */ = {
+			isa = PBXGroup;
+			children = (
+				C280C3681A0A280A00A0625A /* Beaper.swift */,
+				C280C3461A0A265900A0625A /* AppDelegate.swift */,
+				C280C3481A0A265900A0625A /* ViewController.swift */,
+				C280C34A1A0A265900A0625A /* Main.storyboard */,
+				C280C34D1A0A265900A0625A /* Images.xcassets */,
+				C280C34F1A0A265900A0625A /* LaunchScreen.xib */,
+				C280C3441A0A265900A0625A /* Supporting Files */,
+			);
+			path = BeaperSample;
+			sourceTree = "<group>";
+		};
+		C280C3441A0A265900A0625A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C280C3451A0A265900A0625A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C280C3591A0A265900A0625A /* BeaperSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C280C35C1A0A265900A0625A /* BeaperSampleTests.swift */,
+				C280C35A1A0A265900A0625A /* Supporting Files */,
+			);
+			path = BeaperSampleTests;
+			sourceTree = "<group>";
+		};
+		C280C35A1A0A265900A0625A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C280C35B1A0A265900A0625A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C280C3401A0A265900A0625A /* BeaperSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C280C3601A0A265900A0625A /* Build configuration list for PBXNativeTarget "BeaperSample" */;
+			buildPhases = (
+				C280C33D1A0A265900A0625A /* Sources */,
+				C280C33E1A0A265900A0625A /* Frameworks */,
+				C280C33F1A0A265900A0625A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaperSample;
+			productName = BeaperSample;
+			productReference = C280C3411A0A265900A0625A /* BeaperSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C280C3551A0A265900A0625A /* BeaperSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C280C3631A0A265900A0625A /* Build configuration list for PBXNativeTarget "BeaperSampleTests" */;
+			buildPhases = (
+				C280C3521A0A265900A0625A /* Sources */,
+				C280C3531A0A265900A0625A /* Frameworks */,
+				C280C3541A0A265900A0625A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C280C3581A0A265900A0625A /* PBXTargetDependency */,
+			);
+			name = BeaperSampleTests;
+			productName = BeaperSampleTests;
+			productReference = C280C3561A0A265900A0625A /* BeaperSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C280C3391A0A265900A0625A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "koichi kasai";
+				TargetAttributes = {
+					C280C3401A0A265900A0625A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C280C3551A0A265900A0625A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C280C3401A0A265900A0625A;
+					};
+				};
+			};
+			buildConfigurationList = C280C33C1A0A265900A0625A /* Build configuration list for PBXProject "BeaperSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C280C3381A0A265900A0625A;
+			productRefGroup = C280C3421A0A265900A0625A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C280C3401A0A265900A0625A /* BeaperSample */,
+				C280C3551A0A265900A0625A /* BeaperSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C280C33F1A0A265900A0625A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C280C34C1A0A265900A0625A /* Main.storyboard in Resources */,
+				C280C3511A0A265900A0625A /* LaunchScreen.xib in Resources */,
+				C280C34E1A0A265900A0625A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C280C3541A0A265900A0625A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C280C33D1A0A265900A0625A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C280C3491A0A265900A0625A /* ViewController.swift in Sources */,
+				C280C3691A0A280A00A0625A /* Beaper.swift in Sources */,
+				C280C3471A0A265900A0625A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C280C3521A0A265900A0625A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C280C35D1A0A265900A0625A /* BeaperSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C280C3581A0A265900A0625A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C280C3401A0A265900A0625A /* BeaperSample */;
+			targetProxy = C280C3571A0A265900A0625A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C280C34A1A0A265900A0625A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C280C34B1A0A265900A0625A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C280C34F1A0A265900A0625A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C280C3501A0A265900A0625A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C280C35E1A0A265900A0625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C280C35F1A0A265900A0625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C280C3611A0A265900A0625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = BeaperSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = ../Beaper;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C280C3621A0A265900A0625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = BeaperSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = ../Beaper;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C280C3641A0A265900A0625A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeaperSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaperSample.app/BeaperSample";
+			};
+			name = Debug;
+		};
+		C280C3651A0A265900A0625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeaperSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeaperSample.app/BeaperSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C280C33C1A0A265900A0625A /* Build configuration list for PBXProject "BeaperSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C280C35E1A0A265900A0625A /* Debug */,
+				C280C35F1A0A265900A0625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C280C3601A0A265900A0625A /* Build configuration list for PBXNativeTarget "BeaperSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C280C3611A0A265900A0625A /* Debug */,
+				C280C3621A0A265900A0625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C280C3631A0A265900A0625A /* Build configuration list for PBXNativeTarget "BeaperSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C280C3641A0A265900A0625A /* Debug */,
+				C280C3651A0A265900A0625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C280C3391A0A265900A0625A /* Project object */;
+}
