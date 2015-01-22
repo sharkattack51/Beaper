@@ -22,4 +22,4 @@ func foundBeaconNear(major: Int, minor: Int, accuracy: Double) {}
 func foundBeaconFar(major: Int, minor: Int, accuracy: Double) {}
 ```
 
-add a `NSLocationAlwaysUsageDescription` or `NSLocationWhenInUseUsageDescription` key to Info.plist. 
+add a `NSLocationAlwaysUsageDescription` key to Info.plist. 
